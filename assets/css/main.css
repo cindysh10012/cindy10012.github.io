@@ -2276,7 +2276,7 @@ button,
   font-size: 1.2em; /* Adjust the size as needed */
 }
 .large-text-1 {
-  font-size: 1.4em; /* Adjust the size as needed */
+  font-size: 1.3em; /* Adjust the size as needed */
 }
 .large-text-2 {
   font-size: 1.7em; /* Adjust the size as needed */
@@ -2339,4 +2339,15 @@ button,
   width: 100%; /* Ensure the iframe takes up the full width */
   height: 100%; /* Ensure the iframe takes up the full height */
   border: none;
+}
+.uniform-height {
+  height: 260px; /* Set your desired height */
+  width: 200px; /* Set your desired width */
+  object-fit: cover; /* Ensure the image covers the area */
+}
+
+.uniform-height-project {
+  height: 200px; /* Set your desired height */
+  width: 650px; /* Set your desired width */
+  object-fit: cover; /* Ensure the image covers the area */
 }
