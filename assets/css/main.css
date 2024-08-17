@@ -2355,17 +2355,15 @@ button,
 .responsive-image {
   width: 100%;
   height: auto;
-  margin-top: 10px;
+  margin-top: 0px;
   object-fit: cover;
-  object-position: top; /* Ensure the image displays from the top */
+  object-position: top center; /* Ensure the image displays from the top */
 }
 
 @media (max-width: 600px) {
   .responsive-image {
-    width: 100%;
-    height: 400px; /* Increase the height to control the cropping */
+    height: 100%; /* Increase the height to control the cropping */
     margin-top: 0;
-    object-fit: cover;
     object-position: top center; /* Display the top portion, centering horizontally */
   }
 }
