@@ -2368,34 +2368,15 @@ button,
   }
 }
 
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-.iframe-container {
+.responsive-iframe {
   width: 100%;
   height: 80vh; /* Adjust the height as needed */
-  overflow: auto; /* Ensure the container is scrollable */
-}
-
-@media (max-width: 1024px) {
-  /* For iPads and smaller devices */
-  .iframe-container {
-      height: 70vh; /* Adjust height for iPads */
-  }
+  border: none;
+  overflow: auto; /* Ensure the iframe content is scrollable */
 }
 
 @media (max-width: 600px) {
-  /* For iPhones and smaller devices */
-  .iframe-container {
-      height: 40vh; /* Adjust height for iPhones */
+  .responsive-iframe {
+    height: 60vh; /* Adjust height for smaller screens if needed */
   }
-}
-
-.responsive-iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
 }
