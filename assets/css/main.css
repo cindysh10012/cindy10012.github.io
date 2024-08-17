@@ -2351,3 +2351,15 @@ button,
   width: 650px; /* Set your desired width */
   object-fit: cover; /* Ensure the image covers the area */
 }
+.responsive-image {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+  margin-left: 30px;
+}
+
+@media (max-width: 600px) {
+  .responsive-image {
+      margin-left: 0px; /* Adjust margin for smaller screens */
+  }
+}
