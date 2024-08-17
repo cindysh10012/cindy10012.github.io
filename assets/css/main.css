@@ -2354,14 +2354,17 @@ button,
 .responsive-image {
   width: 100%;
   height: auto;
-  margin-top: 10;
+  margin-top: 10px; /* Ensure the margin-top value is in pixels */
 }
 
 @media (max-width: 600px) {
   .responsive-image {
-      width: 100%;
-      height: auto;
-      margin-top: 10;
+    width: auto; /* Use the natural width of the image */
+    max-width: 100%; /* Ensure the image doesn't exceed the container width */
+    height: auto;
+    margin-top: 0; /* Remove the margin-top for mobile */
+    object-fit: cover; /* Ensure the image covers the container */
+    object-position: top; /* Start displaying from the top of the image */
   }
 }
 .responsive-iframe {
