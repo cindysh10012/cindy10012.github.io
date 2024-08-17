@@ -1215,7 +1215,7 @@ input[type="radio"] + label:before {
   border-radius: 0.375em;
   border: 0;
   display: inline-block;
-  position: top; }
+  position: relative; }
   .image img {
     border-radius: 0.375em;
     display: block; }
@@ -2360,7 +2360,12 @@ button,
   object-position: top center; /* Ensure the image displays from the top */
 }
 
-
+@media (max-width: 600px) {
+  .responsive-image {
+    width: 50%; /* Make the image smaller on mobile devices */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
 .responsive-iframe {
   width: 100%;
   height: 80vh; /* Adjust the height as needed */
