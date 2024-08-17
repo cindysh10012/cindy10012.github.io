@@ -2353,14 +2353,15 @@ button,
 }
 
 .responsive-image {
-  width: 100%;
-  height: auto;
-  margin-top: 0px;
+  width: 40%;
+  height: 40%;
+  margin-top: 10px;
   object-fit: cover;
-  object-position: top center; /* Ensure the image displays from the top */
+  object-position: top center; 
+  margin-left: 20px;/* Ensure the image displays from the top */
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
   .responsive-image {
     width: 10%; /* Make the image smaller on mobile devices */
     height: 10%; /* Maintain aspect ratio */
