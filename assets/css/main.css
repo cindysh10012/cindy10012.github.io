@@ -2360,9 +2360,9 @@ button,
   object-position: top center; /* Ensure the image displays from the top */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .responsive-image {
-    width: 50%; /* Make the image smaller on mobile devices */
+    width: 10%; /* Make the image smaller on mobile devices */
     height: 10%; /* Maintain aspect ratio */
   }
 }
