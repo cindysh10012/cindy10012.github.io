@@ -2360,13 +2360,6 @@ button,
   object-position: top center; /* Ensure the image displays from the top */
 }
 
-@media (max-width: 800px) {
-  .responsive-image {
-    height: 100%; /* Increase the height to control the cropping */
-    margin-top: 0;
-    object-position: top center; /* Display the top portion, centering horizontally */
-  }
-}
 
 .responsive-iframe {
   width: 100%;
