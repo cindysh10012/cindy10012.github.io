@@ -2354,14 +2354,14 @@ button,
 .responsive-image {
   width: 100%;
   height: auto;
-  margin-top: 0;
+  margin-top: 10;
 }
 
 @media (max-width: 600px) {
   .responsive-image {
       width: 100%;
       height: auto;
-      margin-top: 0;
+      margin-top: 10;
   }
 }
 .responsive-iframe {
