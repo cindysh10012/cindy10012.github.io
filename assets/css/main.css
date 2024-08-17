@@ -2354,12 +2354,13 @@ button,
 .responsive-image {
   width: 100%;
   height: auto;
-  margin-top: 0px;
-  margin-left: 30px;
+  margin-top: 0;
 }
 
 @media (max-width: 600px) {
   .responsive-image {
-      margin-left: 0px; /* Adjust margin for smaller screens */
+      width: 100%;
+      height: auto;
+      margin-top: 0;
   }
 }
