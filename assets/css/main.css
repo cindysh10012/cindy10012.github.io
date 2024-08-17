@@ -2355,7 +2355,7 @@ button,
 .responsive-image {
   width: 100%;
   height: auto;
-  margin-top: 10px; /* Ensure the margin-top value is in pixels */
+  margin-top: 0px; /* Ensure the margin-top value is in pixels */
 }
 
 @media (max-width: 600px) {
