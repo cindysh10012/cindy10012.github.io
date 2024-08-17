@@ -2363,8 +2363,8 @@ button,
 
 @media (max-width: 600px) {
   .responsive-image {
-    width: 10%; /* Make the image smaller on mobile devices */
-    height: 10%; /* Maintain aspect ratio */
+    width: 50%; /* Make the image smaller on mobile devices */
+    height: 50%; /* Maintain aspect ratio */
   }
 }
 .responsive-iframe {
