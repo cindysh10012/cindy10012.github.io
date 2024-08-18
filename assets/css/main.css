@@ -2365,7 +2365,8 @@ button,
   .responsive-image {
     width: 50%; /* Make the image smaller on mobile devices */
     height: 50%; /* Maintain aspect ratio */
-    margin-right: 100px;
+    display: block; /* Make the image a block element */
+    margin: 0 auto; /* Center the image horizontally */
   }
 }
 .responsive-iframe {
